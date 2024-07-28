@@ -20,7 +20,7 @@ global.info = {
  nameown: 'Mouad',
  nomerown: '212630886351',
  packname: 'sticker by ',
- author: 'Noureddine',
+ author: 'Mouad',
  namebot: 'ꜱɪʟᴀɴᴀ',
  wm: ''-'_꩜ FunDoo ꩜_'-'',
  stickpack: 'Whatsapp',
@@ -46,17 +46,17 @@ global.media = {
 
 // Sosmed
 global.url = {
- sig: 'https://instagram.com/noureddine_ouafy',
- sgh:  'https://github.com/noureddineouafy',
- sgc: 'https://chat.whatsapp.com/DABxracGsi5CQMd5d1N1j7'
+ sig: 'https://instagram.com/_mouad_ad_',
+ sgh:  'https://github.com/Mouadamtti',
+ sgc: 'https://whatsapp.com/channel/0029Vakln6GJ93wbzCYyXd34'
 }
 
-global.wait =` انتظر .. أنا أحاول تلبية طلبك ...`
+global.wait =` _*⏳ Please wait...* `
 
 // Info Wait
 global.msg = {
  wait: '⏱️ *Please be patient*\n\> Running command from *User*!',
- eror: '🤖*Bot Information*\n\> Sorry for the inconvenience in using *Bobiza Bot*. There was an error in the system while executing the command.'
+ eror: '🤖*Bot Information*\n\> Sorry for the inconvenience in using *FunDoo Bot🤖*. There was an error in the system while executing the command.'
 }
 
 global.multiplier = 69
