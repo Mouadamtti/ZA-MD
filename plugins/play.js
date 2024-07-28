@@ -1,7 +1,7 @@
 import yts from 'yt-search'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper-sosmed'
 let handler = async (m, { conn, command, text, usedPrefix }) => {
-  if (!text) throw ` مثال :\n*.play* sami yusuf`
+  if (!text) throw ` مثال :\n*.play* Adele Skayfall`
   let res = await yts(text)
   let vid = res.videos[0]
   await conn.sendMessage(m.chat, { react: { text: "⏳",key: m.key,}
@@ -38,7 +38,7 @@ mimetype: 'audio/mp4', fileName: `${title}`, contextInfo: { externalAdReply: { s
 mediaType:  2,
 mediaUrl: url,
 title: title,
-body: "© SILANA",
+body: "© FunDoo",
 sourceUrl: url,
 thumbnail: await(await conn.getFile(thumbnail)).data                                                                     
                                                                                                                  }
