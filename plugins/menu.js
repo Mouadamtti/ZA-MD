@@ -226,9 +226,9 @@ let handler = async (m, { conn, usedPrefix, command, __dirname, isOwner, isMods,
 			{ quoted: m },
 		)
 }
-handler.help = ['menu']
+handler.help = ['help']
 handler.tags = ['main']
-handler.command = /^(menu)$/i
+handler.command = /^(help)$/i
 handler.register = true
 export default handler
 
