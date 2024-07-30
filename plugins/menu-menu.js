@@ -737,7 +737,7 @@ handler.before = async (m, { conn }) => {
 handler.help = ['play']
 handler.tags = ['downloader']
 handler.command = /^(menu)$/i
-handler.limit = true
+handler.limit = false
 export default handler
 
 function pickRandom(list) {
